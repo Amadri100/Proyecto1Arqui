@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\andre\\OneDrive\\Documentos\\Codigo\\Repos\\1A\\Proyecto1Arqui\\",
+  "WorkspaceRootPath": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Arqui\\Proy\\Proyecto1Arqui\\Proyecto1Arqui\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{177ED6DA-B542-451A-9FDD-D01D6BB3FF78}|Proyecto1Arqui\\Proyecto1Arqui.vcxproj|C:\\Users\\andre\\OneDrive\\Documentos\\Codigo\\Repos\\1A\\Proyecto1Arqui\\Proyecto1Arqui\\Programa.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{177ED6DA-B542-451A-9FDD-D01D6BB3FF78}|Proyecto1Arqui\\Proyecto1Arqui.vcxproj|C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Arqui\\Proy\\Proyecto1Arqui\\Proyecto1Arqui\\Proyecto1Arqui\\Programa.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{177ED6DA-B542-451A-9FDD-D01D6BB3FF78}|Proyecto1Arqui\\Proyecto1Arqui.vcxproj|solutionrelative:Proyecto1Arqui\\Programa.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Programa.asm",
-              "DocumentMoniker": "C:\\Users\\andre\\OneDrive\\Documentos\\Codigo\\Repos\\1A\\Proyecto1Arqui\\Proyecto1Arqui\\Programa.asm",
+              "DocumentMoniker": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Arqui\\Proy\\Proyecto1Arqui\\Proyecto1Arqui\\Proyecto1Arqui\\Programa.asm",
               "RelativeDocumentMoniker": "Proyecto1Arqui\\Programa.asm",
-              "ToolTip": "C:\\Users\\andre\\OneDrive\\Documentos\\Codigo\\Repos\\1A\\Proyecto1Arqui\\Proyecto1Arqui\\Programa.asm",
+              "ToolTip": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Arqui\\Proy\\Proyecto1Arqui\\Proyecto1Arqui\\Proyecto1Arqui\\Programa.asm",
               "RelativeToolTip": "Proyecto1Arqui\\Programa.asm",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-06-11T15:14:58.057Z",
               "EditorCaption": ""
