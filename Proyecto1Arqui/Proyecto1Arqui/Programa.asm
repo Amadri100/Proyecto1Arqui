@@ -65,10 +65,10 @@ leerEntrada ENDP
 
 algoritmoExtendidoEuclides PROC
 ;StackFrame
-    ;RSP Return Adress
-    ;RSP + 8 Parametro A
-    ;RSP + 16 Parametro B
-    ;RSP + 24 Valor retornado: arreglo de 2 numeros [MCD, x]
+;RSP Return Adress
+;RSP + 8 Parametro A
+;RSP + 16 Parametro B
+;RSP + 24 Valor retornado: arreglo de 2 numeros [MCD, x]
 
 ;Registros
     ;RBX = Auxiliar
@@ -83,7 +83,7 @@ algoritmoExtendidoEuclides PROC
     ;RAX = cociente division / resultado multiplicacion
     ;RDX = residuo
 
-cmp [RSP +16], 0 ;IF (B = 0)
+cmp QWORD PTR [RSP +16], 0 ;IF (B = 0)
 je final_casoB_si 
     
 casoB_no: 
@@ -93,14 +93,18 @@ casoB_no:
     mov R11, 1 ; y1 <- 1
     mov R12, 0 ; y2 <- 0
 while_b_le_0:
-    cmp [RSP + 16], 0      ; b > 0
+    cmp QWORD PTR [RSP + 16], 0      ; b > 0
     jng final_while_b_le_0 ; temina si !(b>0)
+
     mov RAX, [RSP + 8] ; RAX = A
     xor RDX, RDX ; RDX = 0 
-    div [RSP + 16] ; q = RAX, r = RDX
+
+    div QWORD PTR [RSP + 16] ; q = RAX, r = RDX
+
     mov RBX, RAX ; temporalmente mueve q  a RBX
     mov R15, RDX ; mueve r a R15
-    mul RAX, R9 ; RAX <- q*x1
+
+    mul R9  ; RAX <- q*x1
     
     mov R13, R10 ; x <- x2
     sub R13, RAX ; x <- x2 - q*x1
@@ -135,8 +139,9 @@ final_while_b_le_0:
         mov [RSP + 32], R10
     ret
 final_casoB_si:
-    mov [RSP + 24], [RSP + 8] ; d <- a
-    mov [RSP + 32], 1         ; x <- 1
+    mov RBX, [RSP + 8]                  ; RBX <- a
+    mov QWORD PTR [RSP + 24], RBX ; d <- a
+    mov QWORD PTR [RSP + 32], 1         ; x <- 1
     ret
     
 
