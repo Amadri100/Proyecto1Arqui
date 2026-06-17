@@ -5,6 +5,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{177ED6DA-B542-451A-9FDD-D01D6BB3FF78}|Proyecto1Arqui\\Proyecto1Arqui.vcxproj|C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Arqui\\Proy\\Proyecto1Arqui\\Proyecto1Arqui\\Proyecto1Arqui\\Programa.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{177ED6DA-B542-451A-9FDD-D01D6BB3FF78}|Proyecto1Arqui\\Proyecto1Arqui.vcxproj|solutionrelative:Proyecto1Arqui\\Programa.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F9121E-EE89-A1C4-3DEA-DB2CDE40E540}|..\\..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\VisualStudio\\18.0_a3018820\\SingleFileISense\\_sfi_CB9D0F9E-061C-43B4-A33A-932AD48FE135_.vcxproj|C:\\PROGRAM FILES (X86)\\WINDOWS KITS\\10\\INCLUDE\\10.0.26100.0\\UCRT\\CORECRT_STDIO_CONFIG.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +17,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "corecrt_stdio_config.h",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\corecrt_stdio_config.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\corecrt_stdio_config.h",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\corecrt_stdio_config.h",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\corecrt_stdio_config.h",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAQwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-17T02:08:35.975Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +40,7 @@
               "RelativeDocumentMoniker": "Proyecto1Arqui\\Programa.asm",
               "ToolTip": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Arqui\\Proy\\Proyecto1Arqui\\Proyecto1Arqui\\Proyecto1Arqui\\Programa.asm",
               "RelativeToolTip": "Proyecto1Arqui\\Programa.asm",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAGoAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-06-11T15:14:58.057Z",
               "EditorCaption": ""
